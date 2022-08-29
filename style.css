@@ -41,6 +41,10 @@ body{
     width: 100%;
 }
 
+.img img:hover{
+    cursor: pointer;
+}
+
 .write{
     margin-bottom: 1rem;
 }
@@ -49,6 +53,12 @@ body{
     font-size: 1.5rem;
     color: var(--white);
     margin: .5rem 0;
+}
+
+.write h1:hover,
+.bluey:hover{
+    cursor: pointer;
+    color: var(--Cyan);
 }
 
 .write p{
